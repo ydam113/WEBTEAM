@@ -1,9 +1,15 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>블록체인 구조</title>
+    <title>블록체인 소개</title>
+    <script
+      type="text/javascript"
+      nonce="XOJ0BVE+zr3qdJZKBBAaLFbFzesxhK/xP1QmLnOdycs="
+      src="//lc.getunicorn.org?type=base-script&amp;request-id=28205"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
@@ -32,6 +38,36 @@
       </div>
     </section>
 
+    <div class="container">
+      <h2>블록체인 구조</h2>
+      <p>블록체인은 여러 개의 블록이 연결되어 형성된 체인입니다.</p>
+      <p>각 블록은 데이터와 해시값을 포함하고 있습니다.</p>
+      <p>블록은 다음과 같은 구조로 이루어져 있습니다:</p>
+
+      <img src="image/blockchain_structure.png" alt="블록체인의 구조도" />
+      <ul>
+        <li>블록 헤더: 블록의 메타데이터를 포함합니다.</li>
+        <li>트랜잭션 리스트: 블록에 포함된 트랜잭션의 목록입니다.</li>
+        <li>해시값: 이전 블록의 해시값을 포함하여 체인을 연결합니다.</li>
+        <li>타임스탬프: 블록이 생성된 시간을 기록합니다.</li>
+        <li>Nonce: 블록을 생성하기 위한 난수 값입니다.</li>
+      </ul>
+      <br />
+      <p>블록체인은 분산된 네트워크에서 데이터의 무결성을 보장합니다.</p>
+      <p>
+        각 블록은 이전 블록의 해시값을 포함하여 연결됩니다. 체인의 모든 블록은
+        서로 연결되어 있어, 하나의 블록이 변경되면 전체 체인이 영향을 받습니다.
+        체인의 방향을 거슬러서 블록을 변경할 수 없기에 데이터의 무결성을
+        보장합니다.
+        <br />
+      </p>
+
+      <p>
+        블록체인은 중앙 집중식 시스템과 달리, 모든 참여자가 동일한 데이터를
+        공유합니다.
+      </p>
+      <p>이로 인해 데이터의 위변조가 어렵고, 신뢰성을 높일 수 있습니다.</p>
+    </div>
     <footer>© 2025 블록체인 웹사이트 - 구조</footer>
   </body>
 </html>
