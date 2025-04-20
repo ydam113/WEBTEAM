@@ -238,3 +238,13 @@ body.dark-mode .navbar,
 body.dark-mode footer {
   background-color: #121220;
 }
+
+#team {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#team li {
+  list-style: none;
+  padding-left: 0px;
+}
